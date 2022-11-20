@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1704.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOrdering", "NumberOrdering\NumberOrdering.csproj", "{AF6FA08C-DD22-4C78-BF32-7A7FAA3242BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOrdering.Tests", "NumberOrdering.Tests\NumberOrdering.Tests.csproj", "{9F2BEB5A-6F69-46B9-B73A-223C90631DA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AF6FA08C-DD22-4C78-BF32-7A7FAA3242BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF6FA08C-DD22-4C78-BF32-7A7FAA3242BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF6FA08C-DD22-4C78-BF32-7A7FAA3242BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2BEB5A-6F69-46B9-B73A-223C90631DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2BEB5A-6F69-46B9-B73A-223C90631DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2BEB5A-6F69-46B9-B73A-223C90631DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2BEB5A-6F69-46B9-B73A-223C90631DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
