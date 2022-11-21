@@ -4,6 +4,6 @@ namespace NumberOrdering.Abstractions
 {
     public interface ISortService
     {
-        IEnumerable<int> SortNumbers(IEnumerable<int> numbers);
+        List<int> SortNumbers(List<int> numbers);
     }
 }

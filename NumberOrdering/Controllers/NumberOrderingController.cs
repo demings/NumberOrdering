@@ -19,7 +19,7 @@ public class NumberOrderingController : ControllerBase
     [HttpPost]
     public async Task<string> PostANumberLineToBeOrderedAsync([FromBody] string numberLine)
     {
-        var numbers = numberLine.Split(" ").Select(Int32.Parse);
+        var numbers = numberLine.Split(" ").Select(Int32.Parse).ToList();
         var sortedNumbers = _sortService.SortNumbers(numbers);
         var output = string.Join(" ", sortedNumbers) ?? "Error occured numbering lines.";
 
