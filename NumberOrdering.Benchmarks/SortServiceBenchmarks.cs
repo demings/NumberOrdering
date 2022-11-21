@@ -25,13 +25,13 @@ public class SortServiceBenchmarks
     }
 
     [Benchmark]
-    public void BubbleSortServiceBenchmakr()
+    public void BubbleSortServiceBenchmark()
     {
         _bubbleSortService.SortNumbers(_randomNumbers);
     }
 
     [Benchmark]
-    public void SystemSortServiceBenchmakr()
+    public void SystemSortServiceBenchmark()
     {
         _systemSortService.SortNumbers(_randomNumbers);
     }
